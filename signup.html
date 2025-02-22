@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup - Fruits Store</title>
+    <link rel="stylesheet" href="assets/signup.css"> <!-- Make sure this file includes the signup CSS -->
+</head>
+<body>
+    <div class="signup-container">
+        <h2>Create an Account</h2>
+        <form class="signup-form" id="signupForm">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Enter your full name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+            <span class="error-message" id="emailError"></span>
+            
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" placeholder="Enter your phone number" required>
+            
+            <div class="otp-section">
+                <input type="text" id="otp" placeholder="Enter OTP" required>
+                <button type="button" class="otp-btn" id="sendOtp">Send OTP</button>
+            </div>
+            <span class="error-message" id="otpError"></span>
+            
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter your password" required>
+            
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password" placeholder="Confirm your password" required>
+            <span class="error-message" id="passwordError"></span>
+            
+            <button type="submit" class="signup-btn">Sign Up</button>
+        </form>
+    </div>
+    
+    <script src="assets/signup.js"></script> <!-- JavaScript file for signup functionality -->
+</body>
+</html>

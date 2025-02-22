@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Fresh Apples Store</title>
+     <!-- Font Awesome CDN for icons -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="assets/contact.css">
+</head>
+<body>
+
+ <!-- Header Section -->
+<header>
+    <h1>🍏Fresh Apples</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html"><img src="assets/images/1.png" alt="Home" class="nav-logo"></a></li>
+            <li><a href="about.html"><img src="assets/images/2.png" alt="About Us" class="nav-logo"></a></li>
+            <li><a href="shop.html"><img src="assets/images/3.png" alt="Shop" class="nav-logo"></a></li>
+            <li class="cart-container">
+                <a href="cart.html">
+                    <img src="assets/images/4.png" alt="Cart" class="nav-logo">
+                </a>
+                <span id="cart-count" class="cart-count">0</span>
+            </li>
+            <li><a href="contact.html"><img src="assets/images/5.png" alt="Contact" class="nav-logo"></a></li>
+        </ul>
+    </nav>
+</header>
+    
+    <section class="contact-form">
+        <h2>Get in Touch</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    
+    <section class="query-section">
+        <h2>Have a Question?</h2>
+        <input type="text" id="query" placeholder="Type your question here...">
+        <button id="submitQuery">Submit Query</button>
+    </section>
+    
+    <section class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <h3 class="faq-question">Where do you source your apples?</h3>
+            <p class="faq-answer">We source our apples from organic farms to ensure the highest quality.</p>
+        </div>
+        <div class="faq-item">
+            <h3 class="faq-question">What is your delivery time?</h3>
+            <p class="faq-answer">Our delivery time ranges from 2-5 days depending on your location.</p>
+        </div>
+    </section>
+    
+    </section>
+    <!-- Social Media Links -->
+<section class="social-media">
+    <h2>Follow Us</h2>
+    <div class="social-links">
+        <a href="#" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+        <a href="#" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+    </div>
+</section>
+    
+    <footer>
+        <p>&copy; 2025 Fresh Apples.
+        </p>
+    </footer>
+    
+    <script src="assets/contact.js"></script>
+
+</body>
+</html>

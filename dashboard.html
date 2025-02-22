@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard - Fruits Store</title>
+    <link rel="stylesheet" href="assets/dashboard.css"> <!-- Dashboard CSS -->
+</head>
+<body>
+    <div class="dashboard-container">
+        <h2>Welcome, <span id="userName">User</span></h2>
+        
+        <!-- User Information Section -->
+        <div class="user-info">
+            <h3>My Profile</h3>
+            <p><strong>Name:</strong> <span id="displayName">John Doe</span></p>
+            <p><strong>Email:</strong> <span id="displayEmail">johndoe@example.com</span></p>
+            <p><strong>Phone:</strong> <span id="displayPhone">9876543210</span></p>
+            <button id="editProfile">Edit Profile</button>
+        </div>
+
+        <!-- My Addresses Section -->
+        <div class="addresses">
+            <h3>My Addresses</h3>
+            <ul id="addressList"></ul>
+            <button id="addNewAddress">Add New Address</button>
+        </div>
+    </div>
+    
+    <script src="assets/dashboard.js"></script> <!-- Dashboard JavaScript -->
+</body>
+</html>

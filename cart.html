@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart- Fresh Apples Store</title>
+     <!-- Font Awesome CDN for icons -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="assets/cart.css">
+</head>
+<body>
+
+ <!-- Header Section -->
+<header>
+    <h1>🍏Fresh Apples</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html"><img src="assets/images/1.png" alt="Home" class="nav-logo"></a></li>
+            <li><a href="about.html"><img src="assets/images/2.png" alt="About Us" class="nav-logo"></a></li>
+            <li><a href="shop.html"><img src="assets/images/3.png" alt="Shop" class="nav-logo"></a></li>
+            <li class="cart-container">
+                <a href="cart.html">
+                    <img src="assets/images/4.png" alt="Cart" class="nav-logo">
+                </a>
+                <span id="cart-count" class="cart-count">0</span>
+            </li>
+            <li><a href="contact.html"><img src="assets/images/5.png" alt="Contact" class="nav-logo"></a></li>
+        </ul>
+    </nav>
+</header>
+
+    <!-- Cart Section -->
+    <a href="shop.html" class="back-to-shop">← Continue Shopping</a>
+
+    <section class="cart">
+        <h2>Your Shopping Cart</h2>
+
+        <div id="cart-items">
+            <!-- Cart items will be dynamically added here -->
+        </div>
+
+        <div class="cart-summary">
+            <h3>Total: ₹<span id="cart-total">0</span></h3>
+           
+        </div>
+    </section>
+    <a href="checkout.html">
+        <button id="checkout-btn">Proceed to Checkout</button>
+    </a>
+    
+
+
+    <script src="assets/cart.js"></script>
+    <!-- Social Media Links -->
+ <section class="social-media">
+    <h2>Follow Us</h2>
+    <div class="social-links">
+        <a href="#" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+        <a href="#" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+    </div>
+</section>
+ <!-- Footer Section -->
+ <footer>
+    <p>&copy; 2025 Fresh Apples Store | All Rights Reserved</p>
+</footer>
+</body>
+</html>
+</body>
+</html>
