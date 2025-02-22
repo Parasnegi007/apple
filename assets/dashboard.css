@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.dashboard-container {
+    background: #ffffff;
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.dashboard-container h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.user-info {
+    background: #f1f1f1;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.user-info p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.address-list {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.address {
+    background: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.address p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.edit-btn {
+    background-color: #007bff;
+}
+
+.edit-btn:hover {
+    background-color: #0056b3;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+@media (max-width: 600px) {
+    .dashboard-container {
+        width: 95%;
+        padding: 15px;
+    }
+
+    button {
+        font-size: 13px;
+        padding: 6px 12px;
+    }
+}

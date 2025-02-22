@@ -1,0 +1,228 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f7f7f7; /* Light background */
+    color: black;
+    text-align: center;
+}
+/* Fixed Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.1px 0.5px;
+    background: rgba(0, 128, 0, 0.9); /* Dark Green with slight transparency */
+    color: white;
+    border-bottom: 1px solid #000000; /* Add border below the header */
+    border-top: 1px solid #000000;
+  
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin:1px;
+}
+
+nav ul li a {
+    display: block; /* Ensures image takes the full space of the link */
+    text-decoration: none;
+}
+
+.nav-logo {
+   
+    width: 30px; /* Adjust the size of your logos */
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 1px; /* Thinner header (reduce padding) */
+    background: transparent; /* Solid dark green background */
+    color: white;
+   
+   
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.cart-icon {
+    position: relative;
+    width: 30px; /* Adjust if needed */
+}
+
+.cart-container {
+    position: relative;
+}
+
+.cart-count {
+    position: absolute;
+    top: -12px;
+    right: -5px;
+    background: transparent;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 3px 7px;
+    border-radius: 50%;
+    min-width: 20px;
+    text-align: center;
+}
+
+/* Cart Section */
+.cart {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.cart h2 {
+    text-align: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+    background: #218838;
+}
+
+/* Query Section */
+.query-section {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    width: 50%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.query-section input {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.query-section button {
+    padding: 10px 15px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.query-section button:hover {
+    background: #0056b3;
+}
+
+/* FAQ Section */
+.faq {
+    width: 60%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.faq h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+}
+
+.faq-item h3 {
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.faq-item p {
+    display: none;
+    padding: 10px;
+    border-left: 4px solid #2c3e50;
+}
+
+/* FAQ Toggle Effect */
+.faq-item h3:hover {
+    background: #ddd;
+}
+/* Social Media Section */
+.social-media {
+    padding: 20px;
+    background: #222;
+    color: white;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.social-icon {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: #ffcc00;
+}
+
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    padding: 2px;
+    margin-top: 1px;
+}
