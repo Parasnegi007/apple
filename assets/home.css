@@ -89,12 +89,12 @@ nav ul li a {
 
 /* Hero Section with Background Image */
 .hero {
-    height: 440px; /* Adjust height as needed */
+    height: 80vh; /* Adjust height as needed */
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: url('apple_background.jpg') no-repeat center center/cover;
+    background: url('images/apple_background.jpg') no-repeat center center/cover;
     color: white;
     padding: 50px 20px;
  margin-top: 0px;
